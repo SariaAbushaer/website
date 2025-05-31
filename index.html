@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Botpress Webchat Integration</title>
+  <style>
+    body {
+      background: pink;
+      color: white;
+    }
+    h1, p {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Your page content goes here -->
+
+  <h1>Welcome to My Website</h1>
+  <p>This page includes a Botpress chat widget below:</p>
+
+  <!-- Botpress chat will appear here -->
+  <div id="bp-webchat"></div>
+
+  <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2025/05/15/12/20250515120952-XSOX04V6.js"></script>
+  <script>
+    window.botpressWebChat.init({
+      container: '#bp-webchat'
+    });
+  </script>
+</body>
+</html>
